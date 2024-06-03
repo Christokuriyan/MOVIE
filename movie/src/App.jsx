@@ -25,7 +25,7 @@ function App() {
         <div className="bg-gray-200 p-6 rounded-lg">
           <h1 className="text-3xl font-bold mb-6 text-center text-blue-800">Movies and Directors</h1>
           <div className="mb-6">
-            <form onSubmit={addMovie} className="space-y-4">
+            <form onSubmit={addMovie} className="space-y-4 flex flex-col items-center">
               <input
                 type="text"
                 value={movieInput}
